@@ -13,7 +13,7 @@
 @interface PasterMenuController : NSObject
 @property (nonatomic, strong)IBOutlet NSMenu *statusMenu;
 @property (nonatomic, strong) NSStatusItem *statusItem;
-
+@property (nonatomic,strong)  NSButton *autoStartButton;
 @end
 
 

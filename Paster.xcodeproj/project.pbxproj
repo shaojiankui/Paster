@@ -72,6 +72,7 @@
 		A21DAF9822D825EB002B7E52 /* Paster */ = {
 			isa = PBXGroup;
 			children = (
+				A21DAFC322D86246002B7E52 /* Vendor */,
 				A21DAF9922D825EB002B7E52 /* AppDelegate.h */,
 				A21DAF9A22D825EB002B7E52 /* AppDelegate.m */,
 				A21DAF9C22D825ED002B7E52 /* Assets.xcassets */,
@@ -92,6 +93,13 @@
 				A21DAFBE22D84476002B7E52 /* PasteWatcher.m */,
 			);
 			path = Paster;
+			sourceTree = "<group>";
+		};
+		A21DAFC322D86246002B7E52 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +133,11 @@
 				TargetAttributes = {
 					A21DAF9522D825EB002B7E52 = {
 						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -304,7 +317,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Paster/Paster.entitlements;
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = "";
@@ -324,7 +336,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = Paster/Paster.entitlements;
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = "";
