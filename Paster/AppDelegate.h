@@ -7,10 +7,8 @@
 //
 
 #import <Cocoa/Cocoa.h>
-
+#import "PasteWatcher.h"
 @interface AppDelegate : NSObject <NSApplicationDelegate>
-@property (nonatomic, strong) NSStatusItem *statusItem;
-@property (nonatomic, strong) NSMenu *mainMenu;
-
+ 
 @end
 

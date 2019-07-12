@@ -13,6 +13,11 @@
 		A21DAFA322D825ED002B7E52 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A21DAFA222D825ED002B7E52 /* main.m */; };
 		A21DAFB022D831FB002B7E52 /* paster@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A21DAFAE22D831FB002B7E52 /* paster@2x.png */; };
 		A21DAFB122D831FB002B7E52 /* paster.png in Resources */ = {isa = PBXBuildFile; fileRef = A21DAFAF22D831FB002B7E52 /* paster.png */; };
+		A21DAFB422D83440002B7E52 /* PasterMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = A21DAFB322D83440002B7E52 /* PasterMenuController.m */; };
+		A21DAFB722D83C80002B7E52 /* HistoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A21DAFB622D83C80002B7E52 /* HistoryCell.m */; };
+		A21DAFBA22D83D91002B7E52 /* HistoryMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A21DAFB922D83D91002B7E52 /* HistoryMenuItem.m */; };
+		A21DAFBC22D83EE6002B7E52 /* HistoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A21DAFBB22D83EE6002B7E52 /* HistoryCell.xib */; };
+		A21DAFBF22D84476002B7E52 /* PasteWatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = A21DAFBE22D84476002B7E52 /* PasteWatcher.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,15 @@
 		A21DAFA422D825ED002B7E52 /* Paster.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Paster.entitlements; sourceTree = "<group>"; };
 		A21DAFAE22D831FB002B7E52 /* paster@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "paster@2x.png"; sourceTree = "<group>"; };
 		A21DAFAF22D831FB002B7E52 /* paster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paster.png; sourceTree = "<group>"; };
+		A21DAFB222D83440002B7E52 /* PasterMenuController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PasterMenuController.h; sourceTree = "<group>"; };
+		A21DAFB322D83440002B7E52 /* PasterMenuController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PasterMenuController.m; sourceTree = "<group>"; };
+		A21DAFB522D83C80002B7E52 /* HistoryCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HistoryCell.h; sourceTree = "<group>"; };
+		A21DAFB622D83C80002B7E52 /* HistoryCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HistoryCell.m; sourceTree = "<group>"; };
+		A21DAFB822D83D91002B7E52 /* HistoryMenuItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HistoryMenuItem.h; sourceTree = "<group>"; };
+		A21DAFB922D83D91002B7E52 /* HistoryMenuItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HistoryMenuItem.m; sourceTree = "<group>"; };
+		A21DAFBB22D83EE6002B7E52 /* HistoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HistoryCell.xib; sourceTree = "<group>"; };
+		A21DAFBD22D84476002B7E52 /* PasteWatcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PasteWatcher.h; sourceTree = "<group>"; };
+		A21DAFBE22D84476002B7E52 /* PasteWatcher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PasteWatcher.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +81,15 @@
 				A21DAFAF22D831FB002B7E52 /* paster.png */,
 				A21DAFAE22D831FB002B7E52 /* paster@2x.png */,
 				A21DAFA422D825ED002B7E52 /* Paster.entitlements */,
+				A21DAFB222D83440002B7E52 /* PasterMenuController.h */,
+				A21DAFB322D83440002B7E52 /* PasterMenuController.m */,
+				A21DAFB822D83D91002B7E52 /* HistoryMenuItem.h */,
+				A21DAFB922D83D91002B7E52 /* HistoryMenuItem.m */,
+				A21DAFB522D83C80002B7E52 /* HistoryCell.h */,
+				A21DAFB622D83C80002B7E52 /* HistoryCell.m */,
+				A21DAFBB22D83EE6002B7E52 /* HistoryCell.xib */,
+				A21DAFBD22D84476002B7E52 /* PasteWatcher.h */,
+				A21DAFBE22D84476002B7E52 /* PasteWatcher.m */,
 			);
 			path = Paster;
 			sourceTree = "<group>";
@@ -128,6 +151,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A21DAFBC22D83EE6002B7E52 /* HistoryCell.xib in Resources */,
 				A21DAFB122D831FB002B7E52 /* paster.png in Resources */,
 				A21DAF9D22D825ED002B7E52 /* Assets.xcassets in Resources */,
 				A21DAFB022D831FB002B7E52 /* paster@2x.png in Resources */,
@@ -142,8 +166,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A21DAFBF22D84476002B7E52 /* PasteWatcher.m in Sources */,
 				A21DAFA322D825ED002B7E52 /* main.m in Sources */,
+				A21DAFB422D83440002B7E52 /* PasterMenuController.m in Sources */,
+				A21DAFB722D83C80002B7E52 /* HistoryCell.m in Sources */,
 				A21DAF9B22D825EB002B7E52 /* AppDelegate.m in Sources */,
+				A21DAFBA22D83D91002B7E52 /* HistoryMenuItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
