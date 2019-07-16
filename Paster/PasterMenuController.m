@@ -54,8 +54,12 @@
     return _statusItem;
 }
 - (void)addHistoryItem:(NSString*)content{
-    //todo 去重
     if(content && ![content isEqualToString:@""]){
+        for(HistoryMenuItem *item in  self.statusItem.menu.itemArray){
+            if(item.tag !=1000 && item.tag !=1001 && [content isEqualToString:item.content]){
+                [self.statusItem.menu removeItem:item];
+            }
+        }
         HistoryMenuItem *menuItem = [[HistoryMenuItem alloc] init];
         [menuItem setTarget:self];
         menuItem.title = content;
@@ -80,7 +84,7 @@
 }
 - (IBAction)clearTouched:(id)sender {
     for(NSMenuItem *item in self.statusItem.menu.itemArray){
-        if(item.tag!=1000){
+        if(item.tag!=1000 && item.tag !=1001){
             [self.statusItem.menu removeItem:item];
         }
     }

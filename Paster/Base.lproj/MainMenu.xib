@@ -21,10 +21,10 @@
         </customObject>
         <menu id="RW3-1T-BeX">
             <items>
-                <menuItem isSeparatorItem="YES" id="LrG-rj-tcr"/>
-                <menuItem title="操作" tag="1000" id="5oh-Xa-8JQ">
+                <menuItem isSeparatorItem="YES" tag="1001" id="LrG-rj-tcr" customClass="HistoryMenuItem"/>
+                <menuItem title="首选项" tag="1000" id="5oh-Xa-8JQ" customClass="HistoryMenuItem">
                     <modifierMask key="keyEquivalentModifierMask"/>
-                    <menu key="submenu" title="操作" id="eoI-Vf-F1x">
+                    <menu key="submenu" title="首选项" id="eoI-Vf-F1x">
                         <items>
                             <menuItem title="清空" id="ayO-6M-4C5">
                                 <modifierMask key="keyEquivalentModifierMask"/>
