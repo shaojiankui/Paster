@@ -11,9 +11,17 @@
 #import "HistoryCell.h"
 
 #import "PasteWatcher.h"
+@interface PasterMenuController()
+{
+    NSArray *_letters;
+}
+@end
+
 @implementation PasterMenuController
 -(void)awakeFromNib{
     [super awakeFromNib];
+    _letters = @[@"a",@"b",@"c",@"d",@"e",@"f",@"g",@"h",@"i",@"j",@"k",@"l",@"m",@"n",@"o",@"p",@"q",@"r",@"s",@"t",@"u",@"v",@"w",@"x",@"y",@"z",
+                 @"A",@"B",@"C",@"D",@"E",@"F",@"G",@"H",@"I",@"J",@"K",@"L",@"M",@"N",@"O",@"P",@"Q",@"R",@"S",@"T",@"U",@"V",@"W",@"X",@"Y",@"Z"];
     self.statusItem.menu = self.statusMenu;
     __weak typeof(self) weakSelf = self;
     
@@ -53,6 +61,7 @@
     }
     return _statusItem;
 }
+
 - (void)addHistoryItem:(NSString*)content{
     if(content && ![content isEqualToString:@""]){
         for(HistoryMenuItem *item in  self.statusItem.menu.itemArray){
@@ -63,10 +72,19 @@
         HistoryMenuItem *menuItem = [[HistoryMenuItem alloc] init];
         [menuItem setTarget:self];
         menuItem.title = content;
+        menuItem.toolTip = content;
         menuItem.content = content;
         [menuItem setAction:@selector(itemTouched:)];
         //    menuItem.view = [HistoryCell nib];
         [self.statusItem.menu insertItem:menuItem atIndex:0];
+        
+        for(int i=0;i<[self.statusItem.menu.itemArray count];i++){
+            HistoryMenuItem *item = (HistoryMenuItem*)[self.statusItem.menu.itemArray objectAtIndex:i];
+
+            if(item.tag !=1000 && item.tag !=1001 && i<41){
+                item.keyEquivalent =_letters[i];
+            }
+        }
     }
 }
 - (void)itemTouched:(HistoryMenuItem*)menuItem{
