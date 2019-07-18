@@ -18,6 +18,23 @@
 		A21DAFBA22D83D91002B7E52 /* HistoryMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A21DAFB922D83D91002B7E52 /* HistoryMenuItem.m */; };
 		A21DAFBC22D83EE6002B7E52 /* HistoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A21DAFBB22D83EE6002B7E52 /* HistoryCell.xib */; };
 		A21DAFBF22D84476002B7E52 /* PasteWatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = A21DAFBE22D84476002B7E52 /* PasteWatcher.m */; };
+		A2285B9B22E05E64006B8C32 /* GitHubReleaseAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = A2285B7822E05E64006B8C32 /* GitHubReleaseAsset.m */; };
+		A2285B9C22E05E64006B8C32 /* Install.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A2285B7C22E05E64006B8C32 /* Install.pdf */; };
+		A2285B9D22E05E64006B8C32 /* GitHubTemplate.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A2285B7D22E05E64006B8C32 /* GitHubTemplate.pdf */; };
+		A2285B9E22E05E64006B8C32 /* GitHubProgressWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2285B7E22E05E64006B8C32 /* GitHubProgressWindowController.xib */; };
+		A2285B9F22E05E64006B8C32 /* GitHubInstallWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2285B8022E05E64006B8C32 /* GitHubInstallWindowController.xib */; };
+		A2285BA022E05E64006B8C32 /* NSError+GitHubUpdates.m in Sources */ = {isa = PBXBuildFile; fileRef = A2285B8422E05E64006B8C32 /* NSError+GitHubUpdates.m */; };
+		A2285BA122E05E64006B8C32 /* Pair.m in Sources */ = {isa = PBXBuildFile; fileRef = A2285B8522E05E64006B8C32 /* Pair.m */; };
+		A2285BA222E05E64006B8C32 /* GitHubVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = A2285B8622E05E64006B8C32 /* GitHubVersion.m */; };
+		A2285BA322E05E64006B8C32 /* NSBundle+GitHubUpdates.m in Sources */ = {isa = PBXBuildFile; fileRef = A2285B8722E05E64006B8C32 /* NSBundle+GitHubUpdates.m */; };
+		A2285BA422E05E64006B8C32 /* NSMutableAttributedString+GitHubUpdates.m in Sources */ = {isa = PBXBuildFile; fileRef = A2285B8822E05E64006B8C32 /* NSMutableAttributedString+GitHubUpdates.m */; };
+		A2285BA522E05E64006B8C32 /* GitHubRelease.m in Sources */ = {isa = PBXBuildFile; fileRef = A2285B8B22E05E64006B8C32 /* GitHubRelease.m */; };
+		A2285BA622E05E64006B8C32 /* GitHubUpdater.m in Sources */ = {isa = PBXBuildFile; fileRef = A2285B8C22E05E64006B8C32 /* GitHubUpdater.m */; };
+		A2285BA722E05E64006B8C32 /* NSString+GitHubUpdates.m in Sources */ = {isa = PBXBuildFile; fileRef = A2285B8D22E05E64006B8C32 /* NSString+GitHubUpdates.m */; };
+		A2285BA822E05E64006B8C32 /* GitHubProgressWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2285B9222E05E64006B8C32 /* GitHubProgressWindowController.m */; };
+		A2285BA922E05E64006B8C32 /* NSAttributedString+GitHubUpdates.m in Sources */ = {isa = PBXBuildFile; fileRef = A2285B9322E05E64006B8C32 /* NSAttributedString+GitHubUpdates.m */; };
+		A2285BAA22E05E64006B8C32 /* GitHubInstallWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2285B9422E05E64006B8C32 /* GitHubInstallWindowController.m */; };
+		A2285BAB22E05E64006B8C32 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A2285B9922E05E64006B8C32 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +57,37 @@
 		A21DAFBB22D83EE6002B7E52 /* HistoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HistoryCell.xib; sourceTree = "<group>"; };
 		A21DAFBD22D84476002B7E52 /* PasteWatcher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PasteWatcher.h; sourceTree = "<group>"; };
 		A21DAFBE22D84476002B7E52 /* PasteWatcher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PasteWatcher.m; sourceTree = "<group>"; };
+		A2285B7822E05E64006B8C32 /* GitHubReleaseAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GitHubReleaseAsset.m; sourceTree = "<group>"; };
+		A2285B7922E05E64006B8C32 /* NSString+GitHubUpdates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+GitHubUpdates.h"; sourceTree = "<group>"; };
+		A2285B7C22E05E64006B8C32 /* Install.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Install.pdf; sourceTree = "<group>"; };
+		A2285B7D22E05E64006B8C32 /* GitHubTemplate.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = GitHubTemplate.pdf; sourceTree = "<group>"; };
+		A2285B7F22E05E64006B8C32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/GitHubProgressWindowController.xib; sourceTree = "<group>"; };
+		A2285B8122E05E64006B8C32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/GitHubInstallWindowController.xib; sourceTree = "<group>"; };
+		A2285B8222E05E64006B8C32 /* GitHubUpdater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GitHubUpdater.h; sourceTree = "<group>"; };
+		A2285B8322E05E64006B8C32 /* GitHubProgressWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GitHubProgressWindowController.h; sourceTree = "<group>"; };
+		A2285B8422E05E64006B8C32 /* NSError+GitHubUpdates.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+GitHubUpdates.m"; sourceTree = "<group>"; };
+		A2285B8522E05E64006B8C32 /* Pair.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pair.m; sourceTree = "<group>"; };
+		A2285B8622E05E64006B8C32 /* GitHubVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GitHubVersion.m; sourceTree = "<group>"; };
+		A2285B8722E05E64006B8C32 /* NSBundle+GitHubUpdates.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+GitHubUpdates.m"; sourceTree = "<group>"; };
+		A2285B8822E05E64006B8C32 /* NSMutableAttributedString+GitHubUpdates.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+GitHubUpdates.m"; sourceTree = "<group>"; };
+		A2285B8922E05E64006B8C32 /* GitHubInstallWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GitHubInstallWindowController.h; sourceTree = "<group>"; };
+		A2285B8A22E05E64006B8C32 /* NSAttributedString+GitHubUpdates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+GitHubUpdates.h"; sourceTree = "<group>"; };
+		A2285B8B22E05E64006B8C32 /* GitHubRelease.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GitHubRelease.m; sourceTree = "<group>"; };
+		A2285B8C22E05E64006B8C32 /* GitHubUpdater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GitHubUpdater.m; sourceTree = "<group>"; };
+		A2285B8D22E05E64006B8C32 /* NSString+GitHubUpdates.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+GitHubUpdates.m"; sourceTree = "<group>"; };
+		A2285B8E22E05E64006B8C32 /* GitHubReleaseAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GitHubReleaseAsset.h; sourceTree = "<group>"; };
+		A2285B8F22E05E64006B8C32 /* Pair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pair.h; sourceTree = "<group>"; };
+		A2285B9022E05E64006B8C32 /* GitHubVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GitHubVersion.h; sourceTree = "<group>"; };
+		A2285B9122E05E64006B8C32 /* NSError+GitHubUpdates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+GitHubUpdates.h"; sourceTree = "<group>"; };
+		A2285B9222E05E64006B8C32 /* GitHubProgressWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GitHubProgressWindowController.m; sourceTree = "<group>"; };
+		A2285B9322E05E64006B8C32 /* NSAttributedString+GitHubUpdates.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+GitHubUpdates.m"; sourceTree = "<group>"; };
+		A2285B9422E05E64006B8C32 /* GitHubInstallWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GitHubInstallWindowController.m; sourceTree = "<group>"; };
+		A2285B9522E05E64006B8C32 /* GitHubUpdaterDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GitHubUpdaterDelegate.h; sourceTree = "<group>"; };
+		A2285B9622E05E64006B8C32 /* NSMutableAttributedString+GitHubUpdates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+GitHubUpdates.h"; sourceTree = "<group>"; };
+		A2285B9722E05E64006B8C32 /* NSBundle+GitHubUpdates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+GitHubUpdates.h"; sourceTree = "<group>"; };
+		A2285B9822E05E64006B8C32 /* GitHubUpdates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GitHubUpdates.h; sourceTree = "<group>"; };
+		A2285B9922E05E64006B8C32 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2285B9A22E05E64006B8C32 /* GitHubRelease.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GitHubRelease.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +146,63 @@
 		A21DAFC322D86246002B7E52 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				A2285B7722E05E64006B8C32 /* GitHubUpdates */,
 			);
 			path = Vendor;
+			sourceTree = "<group>";
+		};
+		A2285B7722E05E64006B8C32 /* GitHubUpdates */ = {
+			isa = PBXGroup;
+			children = (
+				A2285B7822E05E64006B8C32 /* GitHubReleaseAsset.m */,
+				A2285B7922E05E64006B8C32 /* NSString+GitHubUpdates.h */,
+				A2285B7A22E05E64006B8C32 /* Interface */,
+				A2285B8222E05E64006B8C32 /* GitHubUpdater.h */,
+				A2285B8322E05E64006B8C32 /* GitHubProgressWindowController.h */,
+				A2285B8422E05E64006B8C32 /* NSError+GitHubUpdates.m */,
+				A2285B8522E05E64006B8C32 /* Pair.m */,
+				A2285B8622E05E64006B8C32 /* GitHubVersion.m */,
+				A2285B8722E05E64006B8C32 /* NSBundle+GitHubUpdates.m */,
+				A2285B8822E05E64006B8C32 /* NSMutableAttributedString+GitHubUpdates.m */,
+				A2285B8922E05E64006B8C32 /* GitHubInstallWindowController.h */,
+				A2285B8A22E05E64006B8C32 /* NSAttributedString+GitHubUpdates.h */,
+				A2285B8B22E05E64006B8C32 /* GitHubRelease.m */,
+				A2285B8C22E05E64006B8C32 /* GitHubUpdater.m */,
+				A2285B8D22E05E64006B8C32 /* NSString+GitHubUpdates.m */,
+				A2285B8E22E05E64006B8C32 /* GitHubReleaseAsset.h */,
+				A2285B8F22E05E64006B8C32 /* Pair.h */,
+				A2285B9022E05E64006B8C32 /* GitHubVersion.h */,
+				A2285B9122E05E64006B8C32 /* NSError+GitHubUpdates.h */,
+				A2285B9222E05E64006B8C32 /* GitHubProgressWindowController.m */,
+				A2285B9322E05E64006B8C32 /* NSAttributedString+GitHubUpdates.m */,
+				A2285B9422E05E64006B8C32 /* GitHubInstallWindowController.m */,
+				A2285B9522E05E64006B8C32 /* GitHubUpdaterDelegate.h */,
+				A2285B9622E05E64006B8C32 /* NSMutableAttributedString+GitHubUpdates.h */,
+				A2285B9722E05E64006B8C32 /* NSBundle+GitHubUpdates.h */,
+				A2285B9822E05E64006B8C32 /* GitHubUpdates.h */,
+				A2285B9922E05E64006B8C32 /* Info.plist */,
+				A2285B9A22E05E64006B8C32 /* GitHubRelease.h */,
+			);
+			path = GitHubUpdates;
+			sourceTree = "<group>";
+		};
+		A2285B7A22E05E64006B8C32 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				A2285B7B22E05E64006B8C32 /* Images */,
+				A2285B7E22E05E64006B8C32 /* GitHubProgressWindowController.xib */,
+				A2285B8022E05E64006B8C32 /* GitHubInstallWindowController.xib */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		A2285B7B22E05E64006B8C32 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A2285B7C22E05E64006B8C32 /* Install.pdf */,
+				A2285B7D22E05E64006B8C32 /* GitHubTemplate.pdf */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,11 +267,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2285B9D22E05E64006B8C32 /* GitHubTemplate.pdf in Resources */,
 				A21DAFBC22D83EE6002B7E52 /* HistoryCell.xib in Resources */,
 				A21DAFB122D831FB002B7E52 /* paster.png in Resources */,
+				A2285B9E22E05E64006B8C32 /* GitHubProgressWindowController.xib in Resources */,
+				A2285B9C22E05E64006B8C32 /* Install.pdf in Resources */,
 				A21DAF9D22D825ED002B7E52 /* Assets.xcassets in Resources */,
 				A21DAFB022D831FB002B7E52 /* paster@2x.png in Resources */,
 				A21DAFA022D825ED002B7E52 /* MainMenu.xib in Resources */,
+				A2285BAB22E05E64006B8C32 /* Info.plist in Resources */,
+				A2285B9F22E05E64006B8C32 /* GitHubInstallWindowController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,11 +288,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				A21DAFBF22D84476002B7E52 /* PasteWatcher.m in Sources */,
+				A2285BA122E05E64006B8C32 /* Pair.m in Sources */,
+				A2285BA022E05E64006B8C32 /* NSError+GitHubUpdates.m in Sources */,
 				A21DAFA322D825ED002B7E52 /* main.m in Sources */,
+				A2285BA622E05E64006B8C32 /* GitHubUpdater.m in Sources */,
 				A21DAFB422D83440002B7E52 /* PasterMenuController.m in Sources */,
+				A2285BA322E05E64006B8C32 /* NSBundle+GitHubUpdates.m in Sources */,
 				A21DAFB722D83C80002B7E52 /* HistoryCell.m in Sources */,
 				A21DAF9B22D825EB002B7E52 /* AppDelegate.m in Sources */,
+				A2285BA722E05E64006B8C32 /* NSString+GitHubUpdates.m in Sources */,
+				A2285B9B22E05E64006B8C32 /* GitHubReleaseAsset.m in Sources */,
 				A21DAFBA22D83D91002B7E52 /* HistoryMenuItem.m in Sources */,
+				A2285BAA22E05E64006B8C32 /* GitHubInstallWindowController.m in Sources */,
+				A2285BA422E05E64006B8C32 /* NSMutableAttributedString+GitHubUpdates.m in Sources */,
+				A2285BA522E05E64006B8C32 /* GitHubRelease.m in Sources */,
+				A2285BA922E05E64006B8C32 /* NSAttributedString+GitHubUpdates.m in Sources */,
+				A2285BA822E05E64006B8C32 /* GitHubProgressWindowController.m in Sources */,
+				A2285BA222E05E64006B8C32 /* GitHubVersion.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +317,22 @@
 				A21DAF9F22D825ED002B7E52 /* Base */,
 			);
 			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		A2285B7E22E05E64006B8C32 /* GitHubProgressWindowController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2285B7F22E05E64006B8C32 /* Base */,
+			);
+			name = GitHubProgressWindowController.xib;
+			sourceTree = "<group>";
+		};
+		A2285B8022E05E64006B8C32 /* GitHubInstallWindowController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2285B8122E05E64006B8C32 /* Base */,
+			);
+			name = GitHubInstallWindowController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -325,7 +461,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = org.skyfox.Paster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -344,7 +480,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = org.skyfox.Paster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

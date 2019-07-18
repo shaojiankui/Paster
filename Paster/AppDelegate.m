@@ -7,16 +7,24 @@
 //
 
 #import "AppDelegate.h"
-
+#import "GitHubUpdater.h"
 @interface AppDelegate ()<NSMenuDelegate>
 
 @property (weak) IBOutlet NSWindow *window;
+@property(strong, nullable)  GitHubUpdater * updater;
+
 @end
 
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     [[PasteWatcher sharedWatcher] watch];
+    
+    self.updater            = [[ GitHubUpdater alloc] init];
+    self.updater.user       = @"shaojiankui";
+    self.updater.repository = @"Paster";
+    [self.updater checkForUpdatesInBackground];
+    
     // Insert code here to initialize your application
 }
 
