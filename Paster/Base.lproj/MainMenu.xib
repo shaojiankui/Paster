@@ -21,7 +21,6 @@
         </customObject>
         <menu id="RW3-1T-BeX">
             <items>
-                <menuItem isSeparatorItem="YES" tag="1001" id="LrG-rj-tcr" customClass="HistoryMenuItem"/>
                 <menuItem title="首选项" tag="1000" id="5oh-Xa-8JQ" customClass="HistoryMenuItem">
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <menu key="submenu" title="首选项" id="eoI-Vf-F1x">
@@ -47,6 +46,7 @@
                         </items>
                     </menu>
                 </menuItem>
+                <menuItem isSeparatorItem="YES" tag="1001" id="LrG-rj-tcr" customClass="HistoryMenuItem"/>
             </items>
             <connections>
                 <outlet property="delegate" destination="wxH-yZ-GHH" id="Ba8-x6-HQ2"/>

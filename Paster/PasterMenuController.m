@@ -76,7 +76,7 @@
         menuItem.content = content;
         [menuItem setAction:@selector(itemTouched:)];
         //    menuItem.view = [HistoryCell nib];
-        [self.statusItem.menu insertItem:menuItem atIndex:0];
+        [self.statusItem.menu insertItem:menuItem atIndex:1];
         
         for(int i=0;i<[self.statusItem.menu.itemArray count];i++){
             HistoryMenuItem *item = (HistoryMenuItem*)[self.statusItem.menu.itemArray objectAtIndex:i];
